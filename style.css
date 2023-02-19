@@ -1,9 +1,9 @@
 .header {
     background-color: #1f2937;
     color: #f9faf8;
-    height: 400px;
-    padding-left: 150px;
-    padding-right: 150px;
+    
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -33,7 +33,7 @@ a {
 .head {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 10%;
        
 }
 
