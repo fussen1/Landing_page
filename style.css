@@ -8,13 +8,11 @@
 .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-        
+    align-items: center;    
 }
 
-img {
+p {
     font-size: 24px;
-    
 }
 
 ul {
@@ -22,8 +20,6 @@ ul {
     list-style: none;
     justify-content: space-between;
     gap: 10px;
-      
-    
 }
 
 a {
@@ -35,25 +31,38 @@ a {
 .head {
     display: flex;
     justify-content: space-between;
+    gap: 80px;
        
 }
 
 .header2 {
     font-size: 48px;
     font-weight: bolder;
+    width: 400px;
 }
 
 .text {
     font-size: 18px; 
     font-weight: 300;
+    
 }
 
 .card {
-    border: 1px #eee;
+    border: 1px;
     background-color: #6e726e;
     text-align: center;
     width: 400px;
     height: fit-content;
     align-self: center;
     padding: 50px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 10px;
+    border: 1px #3882F6;
+    margin-bottom: 20px;
 }
