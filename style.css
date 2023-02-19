@@ -1,8 +1,10 @@
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    height: 400px;
     padding-left: 150px;
     padding-right: 150px;
+
 }
 
 .content {
@@ -54,7 +56,7 @@ a {
     width: 400px;
     height: fit-content;
     align-self: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 button {
