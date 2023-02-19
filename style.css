@@ -24,7 +24,6 @@ a {
     color: #f9faf8;
 }
 
-.header2 {
+.head {
     display: flex;
-    flex-direction: column;
 }
