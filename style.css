@@ -1,7 +1,7 @@
 .header {
     background-color: #1f2937;
     color: #f9faf8;
-    
+    height: 350px;
     padding-left: 5%;
     padding-right: 5%;
 
@@ -10,7 +10,8 @@
 .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    margin: 0 7% 0 7%; 
 }
 
 p {
@@ -22,6 +23,7 @@ ul {
     list-style: none;
     justify-content: space-between;
     gap: 10px;
+    
 }
 
 a {
@@ -32,9 +34,8 @@ a {
 
 .head {
     display: flex;
-    justify-content: space-between;
-    gap: 10%;
-       
+    justify-content: center;
+    gap: 10%;    
 }
 
 .header2 {
@@ -46,17 +47,16 @@ a {
 .text {
     font-size: 18px; 
     font-weight: 300;
-    
 }
 
 .card {
     border: 1px;
     background-color: #6e726e;
     text-align: center;
-    width: 400px;
-    height: fit-content;
+    width: 350px;
+    height: 30px;
     align-self: center;
-    padding: 100px;
+    padding: 7%;
 }
 
 button {
@@ -74,7 +74,8 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    height: 280px;
+    height: 330px;
+    padding: 15px;
     
 }
 
@@ -82,6 +83,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 5%; 
+    width: auto;
+    padding-top: 20px;
     
 }
 
@@ -102,4 +105,30 @@ button {
    font-weight: 300;
    margin-top: 8px;
    
+}
+
+.section {
+    display: flex;
+    height: auto;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 5% 21% 0 21%;
+    margin: 0;
+}
+
+.call {
+    font-size: 16px;
+    color: #1f2937;
+    display: flex;
+    font-weight: bolder;
+    padding: 0 23% 5% 23%;
+    align-self: flex-end;
 }
