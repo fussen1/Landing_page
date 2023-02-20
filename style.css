@@ -1,3 +1,4 @@
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -65,7 +66,7 @@ button {
     font-size: 18px;
     padding: 8px 30px 8px 30px;
     border-radius: 10px;
-    border: 1px #3882F6;
+    border: 1px;
     margin-bottom: 20px;
 }
 
@@ -131,4 +132,34 @@ button {
     font-weight: bolder;
     padding: 0 23% 5% 23%;
     align-self: flex-end;
+}
+
+.almost {
+    border: 1px solid;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 5%;
+    margin: 7% 12% 7% 12%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.there {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button {
+    font-size: 20px;
+    border: 2px solid #f9faf8;
+}
+
+.ball {
+    font-size: 18px;
+    font-weight: 400;
 }
