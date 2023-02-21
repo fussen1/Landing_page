@@ -166,3 +166,10 @@ button {
     font-size: 18px;
     font-weight: 400;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 2%;
+}
