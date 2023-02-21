@@ -154,9 +154,12 @@ button {
     
 }
 
-.button {
-    font-size: 20px;
+.again {
+    font-size: 18px;
     border: 2px solid #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    height: 35px;
 }
 
 .ball {
